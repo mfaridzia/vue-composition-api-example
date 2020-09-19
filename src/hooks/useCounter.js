@@ -1,4 +1,4 @@
-import { computed } from '@vue/composition-api';
+import { computed } from 'vue';
 import store from '../store/store';
 
 export default function useCounter() {
@@ -11,5 +11,5 @@ export default function useCounter() {
     count,
     incrementCount,
     decrementCount
-  };
+  }
 }

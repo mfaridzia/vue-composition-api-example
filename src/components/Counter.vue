@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { onMounted, watch } from "@vue/composition-api";
+import { onMounted, watch } from "vue";
 import useCounter from "../hooks/useCounter";
 
 export default {
@@ -26,6 +26,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>
